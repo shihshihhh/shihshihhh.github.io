@@ -190,7 +190,7 @@ lib.properties = {
 	color: "#000099",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/fly_atlas_1.png", id:"fly_atlas_1"}
+		{src:"images/fly_atlas_1.png?1702265918218", id:"fly_atlas_1"}
 	],
 	preloads: []
 };
