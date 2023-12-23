@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"切爾西_atlas_1", frames: [[0,52,89,30],[0,0,97,50],[99,0,48,96]]}
+		{name:"WALK_atlas_1", frames: [[0,52,89,30],[0,0,97,50],[99,0,48,96]]}
 ];
 
 
@@ -40,21 +40,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,3046,358);
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["切爾西_atlas_1"]);
+	this.initialize(ss["WALK_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["切爾西_atlas_1"]);
+	this.initialize(ss["WALK_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["切爾西_atlas_1"]);
+	this.initialize(ss["WALK_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -414,7 +414,7 @@ p.nominalBounds = new cjs.Rectangle(-3.6,0,95,131.2);
 
 
 // stage content:
-(lib.切爾西 = function(mode,startPosition,loop,reversed) {
+(lib.WALK = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -463,7 +463,7 @@ lib.properties = {
 	manifest: [
 		{src:"images/CachedBmp_5.png", id:"CachedBmp_5"},
 		{src:"images/CachedBmp_4.png", id:"CachedBmp_4"},
-		{src:"images/切爾西_atlas_1.png", id:"切爾西_atlas_1"}
+		{src:"images/WALK_atlas_1.png", id:"WALK_atlas_1"}
 	],
 	preloads: []
 };
